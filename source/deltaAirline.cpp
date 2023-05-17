@@ -245,7 +245,19 @@ void displayInfo(){
             f1.close();
         }
 
+void printTicket() {
 
+    cout << "\t\t\t###################################################################################\n";
+    cout << "\t\t\t                           DELTA AIRLINE SERVICES                                 \n";
+    cout << "\t\t\t----------------------------------------------------------------------------------\n";
+    cout << "\t\t\t               Name                                  Age                             \n";
+    cout << "\t\t\t        "<<passengerName<<"                              "<<age<<"                    \n";
+    cout << "\t\t\t----------------------------------------------------------------------------------\n";
+    cout << "\t\t\tMobile Number : "<<mobileNumber<<"\t\t\t   Date : "<<date<<"              \n";
+    cout << "\t\t\t----------------------------------------------------------------------------------\n";
+    cout << "\t\t\tDeparture : "<<departure<<"\t\t\t          Arrival : "<<arrival<<"\t\t  \n";
+    cout << "\t\t\t###################################################################################\n";
+}
 
 
 
@@ -260,6 +272,7 @@ int main(){
         obj.executeMenuChoice();
         obj.displayInfo();
         obj.printToFile();
+        obj.printTicket();
        
 
 
