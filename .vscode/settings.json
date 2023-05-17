@@ -4,6 +4,10 @@
     "istream": "cpp",
     "iostream": "cpp",
     "fstream": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "xlocale": "cpp",
+    "xstring": "cpp",
+    "tuple": "cpp",
+    "utility": "cpp"
   }
 }
